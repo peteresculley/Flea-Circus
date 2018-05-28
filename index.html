@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+		Below is a grid of fleas. Ring the bell to make each flea jump to a random adjacent square.<br/>
+		Try to determine the average number of empty squares after 50 rings.<br/><br/>
+		<button onclick="ringBell();">Ring Bell</button>
+		<button onclick="autoRingBell();">Auto Ring to 50</button>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button onclick="resetGrid();">Reset Fleas</button>
+		<br/><br/><canvas id="myCanvas" width="420" height="420" style="border:1px solid #000000;"></canvas>
+		<br/><br/><div id="emptyCount"></div>
+		<div id="ringCount"></div>
+	</body>
+</html>
